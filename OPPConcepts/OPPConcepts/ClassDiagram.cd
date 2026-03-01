@@ -35,5 +35,21 @@
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPPConcepts.Backend.HourlyEmployee">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="OPPConcepts.Employee" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6" Y="2.125" />
+        <Point X="6.831" Y="2.125" />
+        <Point X="6.831" Y="4.625" />
+        <Point X="8" Y="4.625" />
+        <Point X="8" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAEAAgBAAAAAABEAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>HourlyEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="10" />
 </ClassDiagram>
