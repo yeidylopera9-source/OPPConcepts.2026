@@ -30,7 +30,7 @@ namespace OPPConcepts
         public override string ToString()
         {
             return $"{Id}\t{FirstName} {LastName}\n\t" +
-                   $"Value to pay: {GetValueToPlay()}";
+                   $"Value to pay: {GetValueToPlay(),20:C2}";
         }
         public abstract decimal GetValueToPlay();
 

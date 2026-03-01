@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OPPConcepts\OPPConcepts.csproj" />
+    <ProjectReference Include="..\OPPConcepts\OPPConcepts.Backend.csproj" />
   </ItemGroup>
 
 </Project>
