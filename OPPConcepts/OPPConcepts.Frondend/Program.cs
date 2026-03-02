@@ -12,8 +12,11 @@ try
    var employee3 = new HourlyEmployee(3030, "Ana", "Lopez", true, new Date(1970, 3, 15), new Date(2015, 11, 20), 18000, 95);
    employees.Add(employee3);
    var employee4 = new HourlyEmployee(4040, "Kevin", "Rua", true, new Date(1970, 3, 15), new Date(2015, 11, 20), 10000, 112);
-   employees.Add(employee3);
-
+   employees.Add(employee4);
+    var employee5 = new CommisionEmployee(5050, "Sofia", "loa", true, new Date(1970, 3, 15), new Date(2015, 11, 20), 0.03f, 600000000);
+    employees.Add(employee5);
+    var employee6 = new CommisionEmployee(6060, "Diego", "Martinez", true, new Date(1970, 3, 15), new Date(2015, 11, 20), 0.03f, 120000000);
+    employees.Add(employee6);
 
     foreach (var employee in employees)
     {
