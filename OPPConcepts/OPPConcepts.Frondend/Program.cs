@@ -17,12 +17,16 @@ try
     employees.Add(employee5);
     var employee6 = new CommisionEmployee(6060, "Diego", "Martinez", true, new Date(1970, 3, 15), new Date(2015, 11, 20), 0.03f, 120000000);
     employees.Add(employee6);
+    var employee7 = new BaseCommisionEmployee(7070, "Laura", "Martinez", true, new Date(1970, 3, 15), new Date(2015, 11, 20), 0.015f, 250000000, 550000);
+    employees.Add(employee7);
+    var employee8 = new BaseCommisionEmployee(7070, "Carlos", "Rodriguez", true, new Date(1970, 3, 15), new Date(2015, 11, 20), 0.015f, 0, 550000);
+    employees.Add(employee8);
 
     foreach (var employee in employees)
     {
         Console.WriteLine(new string('-', 47));
         Console.WriteLine(employee);
-        payroll += employee.GetValueToPlay();
+        payroll += employee.GetValueToPay();
     }
 
     Console.WriteLine(new string('=', 47));

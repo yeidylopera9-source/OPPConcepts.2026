@@ -20,7 +20,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>ABACAEAAAAAAAAAEEAABAAAAACAAAAAAAAAAAAAAAAg=</HashCode>
+      <HashCode>ABACAEAAAAAAAAAEEAAAAAAAACAAAAAIAAAAAAAAAAg=</HashCode>
       <FileName>Employee.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -31,31 +31,29 @@
   <Class Name="OPPConcepts.SalaryEmployee">
     <Position X="7.25" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>ACAAACAAAAAAAAAEAAABAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.Backend.HourlyEmployee">
     <Position X="7.25" Y="5" Width="1.75" />
-    <InheritanceLine Type="OPPConcepts.Employee" ManuallyRouted="true" FixedFromPoint="true">
-      <Path>
-        <Point X="6" Y="2.125" />
-        <Point X="6.831" Y="2.125" />
-        <Point X="6.831" Y="4.625" />
-        <Point X="8.125" Y="4.625" />
-        <Point X="8.125" Y="5" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AIAABAAAAAAAAAAEAAgBAAAAAABEAAAAAAAAAAAAAAE=</HashCode>
+      <HashCode>AIAABAAAAAAAAAAEAAgAAAAAAABEAAAIAAAAAAAAAAE=</HashCode>
       <FileName>HourlyEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.Backend.CommisionEmployee">
     <Position X="1.25" Y="0.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAIAAACAAAAAAACEAAABBAAAAAAAEAAAAAgAAAAAAAA=</HashCode>
+      <HashCode>AAIAAACAAAAAAAAEQAAABAAAAAAAAAAIAAgAAAAAACA=</HashCode>
       <FileName>CommisionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPPConcepts.Backend.BaseCommisionEmployee">
+    <Position X="1.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
+      <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="10" />

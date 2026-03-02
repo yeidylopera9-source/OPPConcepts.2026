@@ -11,7 +11,7 @@ namespace OPPConcepts.Backend
         private float _workingHours;
 
         //constructors
-        public HourlyEmployee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date? hireDate, decimal hourlyValue, float workingHours) : 
+        public HourlyEmployee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate, decimal hourlyValue, float workingHours) : 
             base(id, firstName, lastName, isActive, bornDate, hireDate)
         {
             HourlyValue = hourlyValue;
@@ -31,7 +31,7 @@ namespace OPPConcepts.Backend
         }
 
         //metodos
-        public override decimal GetValueToPlay() => (decimal)WorkingHours * HourlyValue;
+        public override decimal GetValueToPay() => (decimal)WorkingHours * HourlyValue;
 
 
 

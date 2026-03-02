@@ -8,7 +8,7 @@ namespace OPPConcepts
     public abstract class Employee
     {
         //constructores
-        protected Employee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date? hireDate)
+        protected Employee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate)
         {
             Id = id;
             FirstName = firstName;
@@ -24,17 +24,15 @@ namespace OPPConcepts
         public string LastName { get; set; } = null!;
         public bool IsActive { get; set; }
         public Date BornDate { get; set; } = null!;
-        public Date? HireDate { get; set; } = null!;
+        public Date HireDate { get; set; } = null!;
 
         //metodos int, long, float, double, decimal: monedas
         public override string ToString()
         {
             return $"{Id}\t{FirstName} {LastName}\n\t" +
-                   $"Value to pay.....: {GetValueToPlay(),20:C2}";
+                   $"Value to pay.....: {GetValueToPay(),20:C2}";
         }
-        public abstract decimal GetValueToPlay();
-
-
+        public abstract decimal GetValueToPay();
     }
 }
 

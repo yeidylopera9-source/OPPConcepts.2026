@@ -12,7 +12,7 @@ namespace OPPConcepts
 
 
         //constructors
-         public SalaryEmployee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date? hireDate, decimal salary) : 
+         public SalaryEmployee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate, decimal salary) : 
             base(id, firstName, lastName, isActive, bornDate, hireDate)
         {
             Salary = salary;
@@ -26,7 +26,7 @@ namespace OPPConcepts
         }
 
         //metodos
-        public override decimal GetValueToPlay() => Salary; //es lo mismo al return
+        public override decimal GetValueToPay() => Salary; //es lo mismo al return
 
         public override string ToString() => base.ToString();
         
