@@ -57,6 +57,14 @@
       <FileName>HourlyEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPPConcepts.Backend.Invoice">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAgAAAFAAAAAAAAAAAAAAAJAAIggAAAgAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
   <Interface Name="OPPConcepts.Backend.Ipay">
     <Position X="9.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
