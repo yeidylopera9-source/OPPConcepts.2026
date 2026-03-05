@@ -5,10 +5,10 @@ using System.Text;
 
 namespace OPPConcepts
 {
-    public abstract class Employee
+    public abstract class Employee : Ipay
     {
         //constructores
-        protected Employee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate)
+        public Employee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate)
         {
             Id = id;
             FirstName = firstName;

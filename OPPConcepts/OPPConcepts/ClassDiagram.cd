@@ -11,12 +11,12 @@
     <Position X="4.5" Y="0.5" Width="1.5" />
     <AssociationLine Name="BornDate" Type="OPPConcepts.Backend.Date">
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.019" Y="0.469" />
+        <Position X="0.983" Y="0.477" />
       </MemberNameLabel>
     </AssociationLine>
     <AssociationLine Name="HireDate" Type="OPPConcepts.Backend.Date">
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.839" Y="0.453" />
+        <Position X="-1.828" Y="0.437" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -27,19 +27,13 @@
       <Property Name="BornDate" />
       <Property Name="HireDate" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="OPPConcepts.SalaryEmployee">
     <Position X="7.25" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
       <FileName>SalaryEmployee.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OPPConcepts.Backend.HourlyEmployee">
-    <Position X="7.25" Y="5" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AIAABAAAAAAAAAAEAAgAAAAAAABEAAAIAAAAAAAAAAE=</HashCode>
-      <FileName>HourlyEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.Backend.CommisionEmployee">
@@ -56,5 +50,19 @@
       <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPPConcepts.Backend.HourlyEmployee">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAEAAgAAAAAAABEAAAIAAAAAAAAAAE=</HashCode>
+      <FileName>HourlyEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OPPConcepts.Backend.Ipay">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Ipay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="10" />
 </ClassDiagram>
